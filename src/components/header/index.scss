@@ -1,0 +1,10 @@
+.fixed-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar-nav > a {
+  padding-left: 30px;
+  padding-right: 30px;
+}

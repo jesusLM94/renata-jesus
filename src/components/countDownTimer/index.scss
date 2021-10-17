@@ -1,0 +1,10 @@
+.countdown-container {
+  display: flex;
+
+  .countdown-elements {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 30px 0 30px;
+  }
+}
