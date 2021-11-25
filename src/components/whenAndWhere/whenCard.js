@@ -5,7 +5,7 @@ const Card = (props) => {
   const { title, text, mapSrc } = props
 
   return (
-    <div className="m-5">
+    <div id="whenAndWhere" className="m-5">
       <div className="card-body">
         <h5 className="text-xl flex flex-wrap justify-center mb-2">{title}</h5>
         <p className="text-lg flex flex-wrap justify-center mb-3">{text}</p>

@@ -7,10 +7,10 @@ const Header = () => {
       <h1 className="header-title">Renata & Jesús</h1>
       <div className="flex">
         <nav className="navbar-nav">
-          <a href="#">Inicio</a>
-          <a href="#">¿Dónde y Cúando?</a>
-          <a href="#">Mesa de Regalos</a>
-          <a href="#">Confirmar Asistencia</a>
+          <a href="#heroImage">Inicio</a>
+          <a href="#whenAndWhere">¿Dónde y Cúando?</a>
+          <a href="#gifts">Mesa de Regalos</a>
+          <a href="#im-going">Confirmar Asistencia</a>
         </nav>
       </div>
     </div>
