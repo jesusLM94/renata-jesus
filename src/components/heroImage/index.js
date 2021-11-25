@@ -7,7 +7,7 @@ const HeroImage = () => {
 
   return (
     <div className="hero-image">
-      <h3>Nuestra Boda</h3>
+      <h3 className="hero-title">Nuestra Boda</h3>
       <CountdownTimer startDate={importantDate} />
     </div>
   )

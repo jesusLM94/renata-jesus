@@ -1,8 +1,9 @@
 .fixed-header {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
   flex-direction: column;
-  background-color: #eee0cf;
+  background-color: #e8edf1;
 
   .header-title {
     font-size: 60px;
