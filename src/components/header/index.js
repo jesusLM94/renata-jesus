@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="fixed-header">
       <h1 className="header-title">Renata & Jesús</h1>
-      <div className="container">
+      <div className="flex">
         <nav className="navbar-nav">
           <a href="#">Inicio</a>
           <a href="#">¿Dónde y Cúando?</a>

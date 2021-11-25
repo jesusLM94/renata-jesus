@@ -5,10 +5,10 @@ const Card = (props) => {
   const { title, text, mapSrc } = props
 
   return (
-    <div className="card">
+    <div className="m-5">
       <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{text}</p>
+        <h5 className="text-xl flex flex-wrap justify-center mb-2">{title}</h5>
+        <p className="text-lg flex flex-wrap justify-center mb-3">{text}</p>
         <iframe
           width="400"
           height="300"

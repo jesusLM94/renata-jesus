@@ -1,12 +1,20 @@
 import React from 'react'
+import { IconContext } from 'react-icons'
+import { FaBeer } from 'react-icons/fa'
+import { GiAmpleDress, GiTie } from 'react-icons/gi'
 
 const Dresscode = () => {
   return (
-    <div className="dresscode">
-      <h3>Dresscode</h3>
-      {/* Add image of a dresscode */}
-      {/* <img></img> */}
-      <span>Elegante</span>
+    <div>
+      <h3 className="flex dancing-script justify-center text-4xl mt-10">Dresscode</h3>
+      <IconContext.Provider value={{ className: 'text-9xl' }}>
+        <div className="flex flex-wrap justify-center mt-5">
+          <GiAmpleDress />
+          <GiTie />
+        </div>
+      </IconContext.Provider>
+
+      <span className="flex justify-center text-2xl pt-5">Elegante</span>
     </div>
   )
 }
