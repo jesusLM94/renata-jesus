@@ -1,6 +1,6 @@
 import React from 'react'
-import './index.scss'
 import CountdownTimer from '../countDownTimer'
+import './index.scss'
 
 const HeroImage = () => {
   const importantDate = 'February 25, 2022 18:30:00'
