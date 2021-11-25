@@ -16,6 +16,11 @@ module.exports = {
       },
       __key: 'images',
     },
-    'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [require('tailwindcss'), require('./tailwind.config.js')],
+      },
+    },
   ],
 }
