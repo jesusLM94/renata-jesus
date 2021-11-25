@@ -23,10 +23,6 @@ const CountdownTimer = ({ startDate }) => {
   }, [])
 
   const timerComponents = Object.keys(timeLeft).map((interval) => {
-    if (!timeLeft[interval]) {
-      return
-    }
-
     return (
       <div key={interval} className="countdown-elements">
         <span>{timeLeft[interval]}</span>
