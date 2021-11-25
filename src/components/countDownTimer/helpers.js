@@ -13,8 +13,6 @@ export const calculateTimeLeft = (startDate) => {
     }
   }
 
-  debugger
-
   return timeLeft
 }
 
