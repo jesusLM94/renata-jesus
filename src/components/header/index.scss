@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: #eee0cf;
 
   .header-title {
     font-size: 60px;
@@ -10,6 +11,13 @@
 }
 
 .navbar-nav > a {
+  color: #c9b7a4;
+  cursor: pointer;
   padding-left: 30px;
   padding-right: 30px;
+  text-decoration: none;
+
+  &:hover {
+    color: #a38464;
+  }
 }
