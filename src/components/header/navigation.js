@@ -1,14 +1,22 @@
 import React from 'react'
 
 const Navigation = (props) => {
-  const { className } = props
+  const { className, isOpen } = props
   return (
     <div className={className}>
-      <nav className="navbar-nav">
-        <a href="#home">Inicio</a>
-        <a href="#when-and-where">¿Dónde y Cúando?</a>
-        <a href="#gift-table">Mesa de Regalos</a>
-        <a href="#confirmation">Confirmar Asistencia</a>
+      <nav className="navbar-nav flex flex-col sm:flex-row">
+        <a className="md:px-5" href="#home">
+          Inicio
+        </a>
+        <a className="md:px-5" href="#when-and-where">
+          ¿Dónde y Cúando?
+        </a>
+        <a className="md:px-5" href="#gift-table">
+          Mesa de Regalos
+        </a>
+        <a className="md:px-5" href="#confirmation">
+          Confirmar Asistencia
+        </a>
       </nav>
     </div>
   )

@@ -13,22 +13,23 @@ const GiftTable = () => {
   return (
     <section id="gift-table">
       <h3 className="flex dancing-script justify-center text-4xl mt-10">Mesa de Regalos</h3>
-      <p className="flex justify-center text-lg pt-5">
+      <p className="flex justify-center text-lg p-5">
         Que le caigas es nuestro mayor regalo, pero caite con algo no seas codo
       </p>
-      <div className="flex justify-center text-lg mt-10">
-        <div>
-          <a href="#" className="btn-link h-16 overflow-hidden p-12">
-            <img
-              className="slex-shrink-0 min-w-full min-h-full"
-              src={liverpoolLogo}
-              alt="Liverpool"
-            />
-          </a>
-        </div>
+      <div className="flex flex-col sm:flex-row justify-center text-lg mt-10">
+        <a href="#" className="btn-link overflow-hidden p-12">
+          <img
+            className="slex-shrink-0 min-w-full min-h-full"
+            src={liverpoolLogo}
+            alt="Liverpool"
+          />
+        </a>
 
         <div>
-          <button className="btn-link flex flex-wrap justify-center" onClick={toggleCollapsible}>
+          <button
+            className="btn-link flex flex-wrap justify-center sm:w-full"
+            onClick={toggleCollapsible}
+          >
             <AiFillBank className="m-3 text-3xl" />
             Ayúdanos con nuestra Luna de Miel
           </button>

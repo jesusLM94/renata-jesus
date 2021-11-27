@@ -1,13 +1,7 @@
 .fixed-header {
-  display: flex;
-  align-items: center;
-  padding: 20px 0;
-  flex-direction: column;
   background-color: #e8edf1;
 
   .header-title {
-    font-size: 60px;
-    margin-bottom: 20px;
     font-family: 'Dancing Script', cursive;
   }
 }
@@ -15,8 +9,6 @@
 .navbar-nav > a {
   color: #c9b7a4;
   cursor: pointer;
-  padding-left: 30px;
-  padding-right: 30px;
   text-decoration: none;
 
   &:hover {

@@ -1,17 +1,15 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Navigation from './navigation'
 
-const HamburgerMenu = () => {
-  const [isOpen, setIsOpen] = useState(false)
-  const toggleMenu = () => setIsOpen(!isOpen)
-
+const HamburgerMenu = (props) => {
+  const { isOpen, onButtonClick } = props
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300`
 
   return (
-    <div className="flex sm:hidden">
+    <div className="flex flex-col sm:hidden">
       <button
         className="flex flex-col h-12 w-12 border-2 border-black rounded justify-center items-center group"
-        onClick={toggleMenu}
+        onClick={onButtonClick}
       >
         <div
           className={`${genericHamburgerLine} ${
@@ -33,8 +31,6 @@ const HamburgerMenu = () => {
           }`}
         />
       </button>
-
-      <Navigation className={isOpen ? 'flex' : 'hidden'} />
     </div>
   )
 }
