@@ -3,6 +3,7 @@ import Header from '../components/header'
 import HeroImage from '../components/heroImage'
 import WhenAndWhere from '../components/whenAndWhere'
 import Dresscode from '../components/dressCode'
+import GiftTable from '../components/giftTable'
 import '../assets/styles/index.scss'
 
 const IndexPage = () => {
@@ -13,6 +14,7 @@ const IndexPage = () => {
       <HeroImage />
       <WhenAndWhere />
       <Dresscode />
+      <GiftTable />
     </main>
   )
 }

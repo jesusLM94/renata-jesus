@@ -1,6 +1,5 @@
 import React from 'react'
 import { IconContext } from 'react-icons'
-import { FaBeer } from 'react-icons/fa'
 import { GiAmpleDress, GiTie } from 'react-icons/gi'
 
 const Dresscode = () => {

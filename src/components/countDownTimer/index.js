@@ -24,15 +24,15 @@ const CountdownTimer = ({ startDate }) => {
 
   const timerComponents = Object.keys(timeLeft).map((interval) => {
     return (
-      <div key={interval} className="countdown-elements">
-        <span>{timeLeft[interval]}</span>
+      <div key={interval} className="flex flex-col items-center justify-center">
+        <span className="mb-3">{timeLeft[interval]}</span>
         <span>{interval} </span>
       </div>
     )
   })
 
   return (
-    <div className="countdown-container">
+    <div className="flex justify-between mx-6 text-base space-x-0 space-x-0">
       {timerComponents.length ? timerComponents : <span>Time's up!</span>}
     </div>
   )
