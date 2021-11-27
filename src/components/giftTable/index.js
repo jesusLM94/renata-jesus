@@ -16,7 +16,7 @@ const GiftTable = () => {
       <p className="flex justify-center text-lg p-5">
         Que le caigas es nuestro mayor regalo, pero caite con algo no seas codo
       </p>
-      <div className="flex flex-col sm:flex-row justify-center text-lg mt-10">
+      <div className="flex flex-col sm:flex-row justify-center text-baseº sm:text-lg mt-10">
         <a href="#" className="btn-link overflow-hidden p-12">
           <img
             className="slex-shrink-0 min-w-full min-h-full"

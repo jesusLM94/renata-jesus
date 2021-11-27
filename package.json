@@ -14,6 +14,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@typeform/embed-react": "^1.1.5",
     "autoprefixer": "^10.4.0",
     "gatsby": "^3.13.1",
     "gatsby-plugin-image": "^1.14.1",

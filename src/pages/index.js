@@ -4,6 +4,7 @@ import HeroImage from '../components/heroImage'
 import WhenAndWhere from '../components/whenAndWhere'
 import Dresscode from '../components/dressCode'
 import GiftTable from '../components/giftTable'
+import Footer from '../components/footer'
 import '../assets/styles/index.scss'
 
 const IndexPage = () => {
@@ -15,6 +16,7 @@ const IndexPage = () => {
       <WhenAndWhere />
       <Dresscode />
       <GiftTable />
+      <Footer />
     </main>
   )
 }
