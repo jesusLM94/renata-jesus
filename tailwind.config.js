@@ -7,7 +7,7 @@ module.exports = {
       ...theme('colors'),
       primary: '#c9b7a4',
       secondary: '#A38464',
-      danger: '#e3342f',
+      gray: '#8e9295',
     }),
   },
   variants: {

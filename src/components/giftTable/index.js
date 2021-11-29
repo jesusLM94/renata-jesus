@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiFillBank } from 'react-icons/ai'
 import liverpoolLogo from '../../assets/images/liverpool-logo.png'
+import liverpoolSvg from '../../assets/images/liverpool-logo.svg'
 import './index.scss'
 
 const GiftTable = () => {
@@ -12,25 +13,18 @@ const GiftTable = () => {
 
   return (
     <section id="gift-table">
-      <h3 className="flex dancing-script justify-center text-4xl mt-10">Mesa de Regalos</h3>
+      <h3 className="flex heading-text justify-center mt-10">Mesa de Regalos</h3>
       <p className="flex justify-center text-lg p-5">
         Que le caigas es nuestro mayor regalo, pero caite con algo no seas codo
       </p>
-      <div className="flex flex-col sm:flex-row justify-center text-baseº sm:text-lg mt-10">
+      <div className="flex flex-col sm:flex-row justify-center items-center text-base sm:text-lg mx-5">
         <a href="#" className="btn-link overflow-hidden p-12">
-          <img
-            className="slex-shrink-0 min-w-full min-h-full"
-            src={liverpoolLogo}
-            alt="Liverpool"
-          />
+          <img className="slex-shrink-0 min-w-full min-h-full" src={liverpoolSvg} alt="Liverpool" />
         </a>
 
-        <div>
-          <button
-            className="btn-link flex flex-wrap justify-center sm:w-full"
-            onClick={toggleCollapsible}
-          >
-            <AiFillBank className="m-3 text-3xl" />
+        <div className="mt-5 sm:mt-0 text-base">
+          <button className="btn-link flex flex-wrap justify-center" onClick={toggleCollapsible}>
+            <AiFillBank className="mr-1 text-lg" />
             Ayúdanos con nuestra Luna de Miel
           </button>
           {showCollapsible ? (

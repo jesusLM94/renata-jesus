@@ -5,7 +5,7 @@ import { GiAmpleDress, GiTie } from 'react-icons/gi'
 const Dresscode = () => {
   return (
     <div>
-      <h3 className="flex dancing-script justify-center text-4xl mt-10">Dresscode</h3>
+      <h3 className="flex heading-text justify-center mt-10">Código de Vestimenta</h3>
       <IconContext.Provider value={{ className: 'text-9xl' }}>
         <div className="flex flex-wrap justify-center mt-5">
           <GiAmpleDress />
@@ -13,7 +13,7 @@ const Dresscode = () => {
         </div>
       </IconContext.Provider>
 
-      <span className="flex justify-center text-2xl pt-5">Elegante</span>
+      <span className="flex justify-center text-2xl pt-5">Riguroso Etiqueta</span>
     </div>
   )
 }

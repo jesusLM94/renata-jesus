@@ -1,11 +1,6 @@
 .btn-link {
-  @apply flex justify-center items-center box-border mx-5 mt-5 h-24 py-2 px-4 font-semibold rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75;
+  @apply flex justify-center items-center box-border mx-5 h-24 w-80 font-semibold rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75;
   box-shadow: 0 4px 6px 0 #ccc;
-  width: 90%;
-
-  @media (min-width: 640px) {
-    width: 50%;
-  }
 
   &:hover {
     box-shadow: 4px 6px 12px 0 #545454;
