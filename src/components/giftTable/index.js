@@ -1,6 +1,5 @@
 import React from 'react'
 import { AiFillBank } from 'react-icons/ai'
-import liverpoolLogo from '../../assets/images/liverpool-logo.png'
 import liverpoolSvg from '../../assets/images/liverpool-logo.svg'
 import './index.scss'
 
