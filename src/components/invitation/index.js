@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { guestList } from '../../helpers/guestList'
 import invitationBg from '../../assets/images/invitation-bg.jpeg'
 
@@ -7,7 +7,7 @@ const Invitation = (props) => {
   const person = guestList[inviteId]
 
   return (
-    <Fragment>
+    <div>
       {person ? (
         <div className="w-full relative h-64">
           <div className="w-full h-full bg-black top-0 left-0 absolute opacity-10" />
@@ -20,7 +20,7 @@ const Invitation = (props) => {
           <img className="object-cover w-full h-full" src={invitationBg} alt="wedding" />
         </div>
       ) : null}
-    </Fragment>
+    </div>
   )
 }
 
