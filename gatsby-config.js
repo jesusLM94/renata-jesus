@@ -5,7 +5,7 @@ module.exports = {
     description:
       "Sitio Web de nuestra Boda, Jesus & Renata",
     url: "https://renatajesus.gatsbyjs.io", // No trailing slash allowed!
-    image: "/hero-image.jpg", // Path to the image placed in the 'static' folder, in the project's root directory.
+    image: "./src/assets/images/hero-image.jpg", // Path to the image placed in the 'static' folder, in the project's root directory.
   },
   plugins: [
     'gatsby-plugin-image',
