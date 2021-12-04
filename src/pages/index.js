@@ -7,8 +7,8 @@ import GiftTable from '../components/giftTable'
 import Footer from '../components/footer'
 import Invitation from '../components/invitation'
 import Welcome from '../components/welcome'
-import '../assets/styles/index.scss'
 import SEO from '../components/seo'
+import '../assets/styles/index.scss'
 
 const IndexPage = (props) => {
   const inviteId = props.location?.search?.slice(12)
@@ -16,6 +16,7 @@ const IndexPage = (props) => {
   return (
     <main className="base-styles">
       <title>Home Page</title>
+      <SEO />
       <Header />
       <HeroImage />
       <Welcome />
@@ -24,7 +25,6 @@ const IndexPage = (props) => {
       <Dresscode />
       <GiftTable />
       <Footer />
-      <SEO />
     </main>
   )
 }
