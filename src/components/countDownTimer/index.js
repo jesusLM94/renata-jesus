@@ -20,7 +20,7 @@ const CountdownTimer = ({ startDate }) => {
     return () => {
       clearInterval(interval)
     }
-  }, [])
+  }, [startDate])
 
   const timerComponents = Object.keys(timeLeft).map((interval) => {
     return (

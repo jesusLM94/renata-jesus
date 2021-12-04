@@ -8,7 +8,7 @@ import Footer from '../components/footer'
 import Invitation from '../components/invitation'
 import Welcome from '../components/welcome'
 import Timeline from '../components/timeline'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import '../assets/styles/index.scss'
 
 const IndexPage = (props) => {
@@ -17,7 +17,7 @@ const IndexPage = (props) => {
   return (
     <main className="base-styles">
       <title>Home Page</title>
-      <SEO />
+      <Seo />
       <Header />
       <HeroImage />
       <Welcome />
