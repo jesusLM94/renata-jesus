@@ -7,6 +7,7 @@ import GiftTable from '../components/giftTable'
 import Footer from '../components/footer'
 import Invitation from '../components/invitation'
 import Welcome from '../components/welcome'
+import Timeline from '../components/timeline'
 import SEO from '../components/seo'
 import '../assets/styles/index.scss'
 
@@ -22,6 +23,7 @@ const IndexPage = (props) => {
       <Welcome />
       <Invitation inviteId={inviteId} />
       <WhenAndWhere />
+      <Timeline />
       <Dresscode />
       <GiftTable />
       <Footer />
