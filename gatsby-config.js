@@ -4,7 +4,7 @@ module.exports = {
     titleTemplate: 'Nuestra Boda',
     description: 'Sitio Web de nuestra Boda, Jesus & Renata',
     url: 'https://renatajesus.gatsbyjs.io', // No trailing slash allowed!
-    image: '/static/hero-image.jpg', // Path to the image placed in the 'static' folder, in the project's root directory.
+    image: '/hero-image.jpg', // Path to the image placed in the 'static' folder, in the project's root directory.
   },
   plugins: [
     'gatsby-plugin-image',
