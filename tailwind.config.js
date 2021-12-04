@@ -7,8 +7,9 @@ module.exports = {
       ...theme('colors'),
       primary: '#c9b7a4',
       secondary: '#A38464',
+      custom: '#f1efe8',
       gray: '#8e9295',
-      blue: '#2A9BE0'
+      blue: '#2A9BE0',
     }),
   },
   variants: {

@@ -5,8 +5,8 @@ const Card = (props) => {
   const { title, text, mapSrc, time } = props
 
   return (
-    <div id="whenAndWhere" className="m-5">
-      <div>
+    <div className="m-5">
+      <figure class="bg-primary rounded-xl sm:p-8">
         <h5 className="text-xl flex flex-wrap justify-center mb-2 font-bold">{title}</h5>
         <p className="text-lg flex flex-wrap justify-center mb-2">{text}</p>
         <p className="text-lg flex flex-wrap justify-center mb-5">{time}</p>
@@ -19,7 +19,7 @@ const Card = (props) => {
           title={title}
           style={{ border: 0 }}
         ></iframe>
-      </div>
+      </figure>
     </div>
   )
 }
