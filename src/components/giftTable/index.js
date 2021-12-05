@@ -14,7 +14,9 @@ const GiftTable = () => {
     <section id="gift-table">
       <h3 className="flex heading-text justify-center mt-10">Mesa de Regalos</h3>
       <p className="flex justify-center text-lg p-2 sm:p-5 text-center">
-        Que le caigas es nuestro mayor regalo, pero caite con algo no seas codo
+        El mejor regalo es tu asistencia, pero si quieres darnos un regalo nos puedes ayudar con
+        nuestra Luna de Miel (afortunadamente tenemos todo lo que necesitamos en casa). O si lo
+        prefieres, te dejamos nuestra mesa de regalos.
       </p>
       <div className="flex flex-col sm:flex-row justify-center items-center text-base sm:text-lg mx-5">
         <a
