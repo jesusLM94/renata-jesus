@@ -23,6 +23,7 @@ const GiftTable = () => {
           href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50762086"
           className="btn-link overflow-hidden p-12"
           target="_blank"
+          rel="noreferrer"
         >
           <img className="slex-shrink-0 min-w-full min-h-full" src={liverpoolSvg} alt="Liverpool" />
         </a>

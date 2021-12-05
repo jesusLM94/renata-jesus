@@ -4,8 +4,6 @@ import './index.scss'
 const Card = (props) => {
   const { title, text, time, imageSrc, directions } = props
 
-  const onButtonClick = () => {}
-
   return (
     <div className="m-5 w-full sm:w-5/12">
       <figure class="bg-custom rounded-xl p-3 sm:p-8 text-center">
@@ -17,6 +15,7 @@ const Card = (props) => {
           className="flex justify-center cursor-pointer bg-primary hover:bg-secondary text-white font-bold py-2 px-4 rounded-full mt-5 w-full"
           href={directions}
           target="_blank"
+          rel="noreferrer"
         >
           Ver Mapa
         </a>
