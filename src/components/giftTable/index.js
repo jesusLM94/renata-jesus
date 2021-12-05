@@ -36,7 +36,18 @@ const GiftTable = () => {
         </div>
       </div>
       {showCollapsible ? (
-        <div className="border border-b-0 px-10 py-6">Estos son nuestros datos bancarios</div>
+        <div className="border border-b-0 px-10 py-6 flex items-center flex-col">
+          <p className="text-lg">
+            <span className="font-black">Titular:</span> Renata Salazar Villaseñor
+          </p>
+          <p className="text-lg">Tarjeta de débito BBVA</p>
+          <p className="text-lg">
+            <span className="font-black">Número de Tarjeta:</span> 4152 3134 7439 4397
+          </p>
+          <p className="text-lg">
+            <span className="font-black">Clabe:</span> 4152 3134 7439 4397
+          </p>
+        </div>
       ) : null}
     </section>
   )
