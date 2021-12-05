@@ -10,6 +10,8 @@ module.exports = {
       custom: '#f1efe8',
       gray: '#8e9295',
       blue: '#2A9BE0',
+      custom: '#e5e5e5',
+      olive: '#a5a58d',
     }),
   },
   variants: {

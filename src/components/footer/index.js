@@ -26,7 +26,7 @@ const Footer = () => {
       <PopupButton
         id="h1Xufz1d"
         style={{ fontSize: 20 }}
-        className="bg-secondary hover:bg-primary text-white font-bold py-2 px-4 rounded-full mt-5"
+        className="bg-primary hover:bg-secondary text-white font-bold py-2 px-4 rounded-full mt-5"
       >
         RSVP
       </PopupButton>

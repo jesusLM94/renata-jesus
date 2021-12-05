@@ -32,7 +32,7 @@ const CountdownTimer = ({ startDate }) => {
   })
 
   return (
-    <div className="flex justify-between sm:justify-center w-full mx-6 text-xl sm:text-2xl space-x-0 space-x-0">
+    <div className="flex justify-center w-full mx-6 text-xl sm:text-2xl space-x-0 space-x-0">
       {timerComponents.length ? timerComponents : <span>Time's up!</span>}
     </div>
   )

@@ -1,5 +1,7 @@
 import React from 'react'
 import Card from './whenCard'
+import quintaFoto from '../../assets/images/quinta-los-agapantos.jpeg'
+import iglesiaFoto from '../../assets/images/iglesia.jpeg'
 
 const WhenAndWhere = () => {
   return (
@@ -8,17 +10,17 @@ const WhenAndWhere = () => {
       <div className="flex flex-wrap justify-center sm:mt-10">
         <Card
           title="Ceremonia Religiosa"
-          time="Viernes 25 de Febrero, 6:30 pm"
+          time="Viernes 25 de febrero, 6:30 pm"
           text="Parroquia Nuestra Señora de Bugambilias"
-          mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.6944455497046!2d-103.4520313850006!3d20.600532186231803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ac83205fc78d%3A0xc73b963bd0ca75c1!2sParroquia%20de%20Nuestra%20Se%C3%B1ora%20de%20Bugambilias!5e0!3m2!1sen!2smx!4v1636434114799!5m2!1sen!2smx"
+          imageSrc={iglesiaFoto}
+          directions="https://www.google.com/maps/dir//iglesia+nuestra+se%C3%B1ora+de+bugambilias/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x8428ac83205fc78d:0xc73b963bd0ca75c1?sa=X&ved=2ahUKEwi5ivqQ0cv0AhWYmGoFHRPmDJoQ9Rd6BAhWEAU"
         />
         <Card
           title="Recepción"
           text="Quinta los Agapantos"
-          time="Viernes 25 de Febrero, 8:00 pm"
-          mapSrc={
-            'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13235.708074015962!2d-103.48709467299028!3d20.561046523596442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ab34abadeeef%3A0xd1064427b36cb43e!2sFifth%20the%20agapanthus!5e0!3m2!1sen!2smx!4v1636434794671!5m2!1sen!2smx'
-          }
+          time="Viernes 25 de febrero, 8:00 pm"
+          imageSrc={quintaFoto}
+          directions="https://www.google.com/maps/dir//quinta+los+agapantos/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x8428ab34abadeeef:0xd1064427b36cb43e?sa=X&ved=2ahUKEwim4uue0cv0AhVGk2oFHfN_CDYQ9Rd6BAhQEAM"
         />
       </div>
     </section>

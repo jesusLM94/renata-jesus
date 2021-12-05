@@ -2,23 +2,24 @@ import React from 'react'
 import './index.scss'
 
 const Card = (props) => {
-  const { title, text, mapSrc, time } = props
+  const { title, text, time, imageSrc, directions } = props
+
+  const onButtonClick = () => {}
 
   return (
-    <div className="m-5">
-      <figure class="bg-primary rounded-xl p-3 sm:p-8">
+    <div className="m-5 w-full sm:w-5/12">
+      <figure class="bg-custom rounded-xl p-3 sm:p-8 text-center">
         <h5 className="text-xl flex flex-wrap justify-center mb-2 font-bold">{title}</h5>
         <p className="text-lg flex flex-wrap justify-center mb-2">{text}</p>
         <p className="text-lg flex flex-wrap justify-center mb-5">{time}</p>
-        <iframe
-          width="400"
-          height="300"
-          loading="lazy"
-          src={mapSrc}
-          allowFullScreen=""
-          title={title}
-          style={{ border: 0 }}
-        ></iframe>
+        <img src={imageSrc} alt="party" className="w-full p-1" />
+        <a
+          className="flex justify-center cursor-pointer bg-primary hover:bg-secondary text-white font-bold py-2 px-4 rounded-full mt-5 w-full"
+          href={directions}
+          target="_blank"
+        >
+          Ver Mapa
+        </a>
       </figure>
     </div>
   )

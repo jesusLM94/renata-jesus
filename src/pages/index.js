@@ -23,8 +23,8 @@ const IndexPage = (props) => {
       <Welcome />
       <Invitation inviteId={inviteId} />
       <WhenAndWhere />
-      <Timeline />
       <Dresscode />
+      <Timeline />
       <GiftTable />
       <Footer />
     </main>
