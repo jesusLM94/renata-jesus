@@ -28,7 +28,7 @@ const Welcome = () => {
         </div>
 
         <p className="mt-7 sm:mt-10">Y nuestros padrinos</p>
-        <p className="">Ana García Sauceda y José Montelongo Galván</p>
+        <p className="">Anabell García Sauceda y José Montelongo Galván</p>
 
         <p className="mt-7 sm:mt-10">Uniremos nuestras vidas en matrimonio</p>
       </div>
