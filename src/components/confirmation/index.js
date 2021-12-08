@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { PopupButton } from '@typeform/embed-react'
 
-const Footer = () => {
+const Confirmation = ({ person }) => {
   return (
-    <footer
+    <section
       className="flex justify-center flex-col items-center mt-10 pb-10 mx-10"
       id="confirmation"
     >
@@ -20,18 +20,22 @@ const Footer = () => {
         alguno de los síntomas relacionados con COVID-19, notifica a los novios. ¡Si te cuidas tú,
         nos cuidamos todos!
       </p>
-      <h3 className="flex heading-text justify-center mt-10">Confirma tu asistencia</h3>
-      <p className="mt-5">Llena nuestro formulario y sé parte de nuestro gran día.</p>
-      <p className="mt-5"> Dale click al siguiente botón.</p>
-      <PopupButton
-        id="h1Xufz1d"
-        style={{ fontSize: 20 }}
-        className="bg-primary hover:bg-secondary text-white font-bold py-2 px-4 rounded-full mt-5"
-      >
-        RSVP
-      </PopupButton>
-    </footer>
+      {person ? (
+        <Fragment>
+          <h3 className="flex heading-text justify-center mt-10">Confirma tu asistencia</h3>
+          <p className="mt-5">Llena nuestro formulario y sé parte de nuestro gran día.</p>
+          <p className="mt-5"> Dale click al siguiente botón.</p>
+          <PopupButton
+            id="h1Xufz1d"
+            style={{ fontSize: 20 }}
+            className="bg-primary hover:bg-secondary text-white font-bold py-2 px-4 rounded-full mt-5"
+          >
+            RSVP
+          </PopupButton>
+        </Fragment>
+      ) : null}
+    </section>
   )
 }
 
-export default Footer
+export default Confirmation
