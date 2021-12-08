@@ -49,12 +49,12 @@ export const guestList = Object.freeze({
     name: 'Srita. María del Carmen Villaseñor Aguirre',
     tickets: '1',
   },
-  villaseñorvera: {
+  villasenorvera: {
     id: '11',
     name: 'Familia Villaseñor Vera',
     tickets: '2',
   },
-  villaseñormoreno: {
+  villasenormoreno: {
     id: '12',
     name: 'Familia Villaseñor Moreno',
     tickets: '2',
@@ -141,7 +141,7 @@ export const guestList = Object.freeze({
   },
   magove: {
     id: '29',
-    name: 'Familia Alvarez Gómez',
+    name: 'Familia Álvarez Gómez',
     tickets: '2',
   },
   jacob: {
@@ -156,7 +156,7 @@ export const guestList = Object.freeze({
   },
   angulolizarraga: {
     id: '32',
-    name: 'Familia Angúlo Lizárraga',
+    name: 'Familia Angulo Lizárraga',
     tickets: '2',
   },
   rodriguez: {
@@ -196,7 +196,7 @@ export const guestList = Object.freeze({
     name: 'Familia Galaviz Montelongo',
     tickets: '5',
   },
-  peña: {
+  penamontelongo: {
     id: '40',
     name: 'Familia Peña Montelongo',
     tickets: '4',
@@ -265,12 +265,12 @@ export const guestList = Object.freeze({
   },
   alejandro: {
     id: '53',
-    name: 'Alejandro Calderón',
+    name: 'Alex Calderón',
     tickets: '2',
   },
   quique: {
     id: '54',
-    name: 'Luis Enrique González',
+    name: 'Quique González',
     tickets: '1',
   },
   nacho: {
@@ -283,13 +283,11 @@ export const guestList = Object.freeze({
     name: 'Orlando Ramírez',
     tickets: '2',
   },
-  // Faltan datos (Apellido Ana Karen)
   primo: {
     id: '57',
-    name: 'Familia Calderón P',
+    name: 'Familia Calderón Peraza',
     tickets: '2',
   },
-  //Faltan datos (confirmar rubicel)
   rafa: {
     id: '58',
     name: 'Familia Velázques Rubicel',
@@ -322,7 +320,7 @@ export const guestList = Object.freeze({
   },
   estefy: {
     id: '64',
-    name: 'Estefania Benavente',
+    name: 'Stefy Benavente',
     tickets: '2',
   },
   fabian: {
@@ -368,14 +366,19 @@ export const guestList = Object.freeze({
     tickets: '2',
   },
   anakaren: {
-    id: "71",
-    name: "Ana Karen Ortega Villaseñor",
-    tickets: "2",
+    id: '71',
+    name: 'Ana Karen Ortega Villaseñor',
+    tickets: '2',
   },
-  extras: {
-    id: "72",
-    name: "Extras",
-    tickets: "5",
+  jc: {
+    id: '72',
+    name: 'JC Verduzco',
+    tickets: '1',
+  },
+  contreras: {
+    id: '71',
+    name: 'Familia Contreras',
+    tickets: '2',
   },
 })
 
@@ -387,4 +390,3 @@ export const numberOfGuests = (guestList) => {
     return sum
   }, 0)
 }
-
