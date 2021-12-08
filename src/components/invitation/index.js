@@ -1,10 +1,8 @@
 import React from 'react'
-import { guestList } from '../../helpers/guestList'
 import invitationBg from '../../assets/images/invitation-bg.jpeg'
 
 const Invitation = (props) => {
-  const { inviteId } = props
-  const person = guestList[inviteId]
+  const { person } = props
 
   return (
     <div>
