@@ -42,10 +42,10 @@ const GiftTable = () => {
           </p>
           <p className="text-lg">Tarjeta de débito BBVA</p>
           <p className="text-lg">
-            <span className="font-black">Número de Tarjeta:</span> 4152 3134 7439 4397
+            <span className="font-black">Tarjeta:</span> 4152 3134 7439 4397
           </p>
           <p className="text-lg">
-            <span className="font-black">Clabe:</span> 4152 3134 7439 4397
+            <span className="font-black">Clabe:</span> 012 320 01573189309 0
           </p>
         </div>
       ) : null}
