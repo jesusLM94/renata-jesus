@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { InvitationContext } from '../../contexts/invitation'
+import { InvitationContext } from '../../helpers/contexts'
 import invitationBg from '../../assets/images/invitation-bg.jpeg'
 
 const Invitation = () => {
