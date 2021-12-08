@@ -4,7 +4,7 @@ module.exports = {
     titleTemplate: 'Jesus & Renata',
     description: 'Nos encantaría celebrar este día tan especial contigo.',
     url: 'https://renata-y-jesus.com', // No trailing slash allowed!
-    image: '/hero-image.jpg', // Path to the image placed in the 'static' folder, in the project's root directory.
+    image: '/hero-image.jpeg', // Path to the image placed in the 'static' folder, in the project's root directory.
   },
   plugins: [
     'gatsby-plugin-image',
