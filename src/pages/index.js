@@ -16,12 +16,14 @@ import smoothscroll from 'smoothscroll-polyfill'
 import '../assets/styles/index.scss'
 
 const IndexPage = (props) => {
-  // kick off the polyfill for smooth scrolling
-  smoothscroll.polyfill()
-
   const inviteId = props.location?.search?.slice(12)
   const person = guestList[inviteId]
   const hasInvitation = person !== undefined
+
+  React.useEffect(() => {
+    // kick off the polyfill for smooth scrolling
+    smoothscroll.polyfill()
+  }, [])
 
   return (
     <main className="base-styles">
