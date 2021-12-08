@@ -13,7 +13,9 @@ const Invitation = () => {
           <div className="w-full h-full flex flex-col absolute top-0 left-0 justify-center items-center">
             <h3 className="heading-text mt-10">Datos del invitado</h3>
             <p className="text-2xl sm:text-4xl text-center mt-5 sm:mt-10">{person.name}</p>
-            <p className="text-lg sm:text-2xl mt-3">{person.tickets} boletos</p>
+            <p className="text-lg sm:text-2xl mt-3">{`${person.tickets} boleto${
+              person.tickets > 1 ? 's' : ''
+            }`}</p>
             <p className="text-lg sm:text-2xl mt-3 mb-5">No Niños</p>
           </div>
           <img className="object-cover w-full h-full" src={invitationBg} alt="wedding" />
