@@ -6,12 +6,12 @@ const TimelineItem = ({ side, time, title, icon }) => {
       ? 'flex-row-reverse items-center w-full left-timeline'
       : 'items-center w-full right-timeline'
 
-  const bgColor = side === 'left' ? 'bg-custom' : 'bg-gray-400'
+  const bgColor = side === 'left' ? 'bg-custom' : 'bg-gray-200'
 
   return (
     <div className={`mb-8 flex justify-between ${sideClass}`}>
-      <div className="order-1 w-4/12 sm:w-5/12"></div>
-      <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-24 h-8 rounded-full">
+      <div className="order-1 w-4/12 sm:w-5/12" />
+      <div className="z-20 flex items-center order-1 bg-custom shadow-xl w-24 h-8 rounded-full">
         <h1 className="mx-auto font-semibold text-sm sm:text-lg">{time}</h1>
       </div>
       <div

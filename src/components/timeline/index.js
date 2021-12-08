@@ -14,7 +14,7 @@ const Timeline = () => {
         <div
           className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border"
           style={{ left: '50%' }}
-        ></div>
+        />
         {/* <!-- right timeline --> */}
         <TimelineItem
           side={'right'}

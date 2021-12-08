@@ -290,7 +290,7 @@ export const guestList = Object.freeze({
   },
   rafa: {
     id: '58',
-    name: 'Familia Velázques Rubicel',
+    name: 'Familia Velázquez Rubicel',
     tickets: '2',
   },
   pepe: {
