@@ -14,9 +14,9 @@ const GiftTable = () => {
     <section id="gift-table">
       <h3 className="flex heading-text justify-center mt-10">Mesa de Regalos</h3>
       <p className="flex justify-center text-lg p-2 sm:p-5 text-center">
-        El mejor regalo es tu asistencia, pero si quieres darnos un regalo nos puedes ayudar con
-        nuestra Luna de Miel (afortunadamente tenemos todo lo que necesitamos en casa). O si lo
-        prefieres, te dejamos nuestra mesa de regalos.
+        El mejor regalo que nos puedes dar será tu asistencia, pero si quieres obsequiarnos algo,
+        agradeceríamos mucho tu apoyo con nuestra luna de miel. O si lo prefieres, te dejamos
+        nuestra mesa de regalos.
       </p>
       <div className="flex flex-col sm:flex-row justify-center items-center text-base sm:text-lg mx-5">
         <a
@@ -35,6 +35,7 @@ const GiftTable = () => {
           </button>
         </div>
       </div>
+
       {showCollapsible ? (
         <div className="border border-b-0 px-10 py-6 flex items-center flex-col">
           <p className="text-lg">
