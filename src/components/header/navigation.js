@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { InvitationContext } from '../../pages'
 
 const Navigation = (props) => {
   const { className } = props
+  const { hasInvitation } = useContext(InvitationContext)
 
   const executeScroll = (e, id) => {
     const element = document.getElementById(id)
@@ -21,9 +23,11 @@ const Navigation = (props) => {
         <a onClick={(e) => executeScroll(e, 'gift-table')} className="sm:px-5" href="/">
           Mesa de Regalos
         </a>
-        <a onClick={(e) => executeScroll(e, 'confirmation')} className="sm:px-5" href="/">
-          Confirmar Asistencia
-        </a>
+        {hasInvitation ? (
+          <a onClick={(e) => executeScroll(e, 'confirmation')} className="sm:px-5" href="/">
+            Confirmar Asistencia
+          </a>
+        ) : null}
       </nav>
     </div>
   )

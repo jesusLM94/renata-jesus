@@ -14,27 +14,32 @@ import { guestList } from '../helpers/guestList'
 import smoothscroll from 'smoothscroll-polyfill'
 import '../assets/styles/index.scss'
 
-const IndexPage = (props) => {
-  const inviteId = props.location?.search?.slice(12)
-  const person = guestList[inviteId]
+export const InvitationContext = React.createContext({ person: {}, hasInvitation: false })
 
+const IndexPage = (props) => {
   // kick off the polyfill for smooth scrolling
   smoothscroll.polyfill()
+
+  const inviteId = props.location?.search?.slice(12)
+  const person = guestList[inviteId]
+  const hasInvitation = person !== undefined
 
   return (
     <main className="base-styles">
       <title>Home Page</title>
       <Seo />
-      <Header />
-      <HeroImage />
-      <Welcome />
-      <Invitation person={person} />
-      <WhenAndWhere />
-      <Dresscode />
-      <Timeline />
-      <GiftTable />
-      <Confirmation person={person} />
-      <Footer />
+      <InvitationContext.Provider value={{ person, hasInvitation }}>
+        <Header />
+        <HeroImage />
+        <Welcome />
+        <Invitation />
+        <WhenAndWhere />
+        <Dresscode />
+        <Timeline />
+        <GiftTable />
+        <Confirmation />
+        <Footer />
+      </InvitationContext.Provider>
     </main>
   )
 }

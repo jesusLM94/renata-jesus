@@ -1,7 +1,10 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useContext } from 'react'
 import { PopupButton } from '@typeform/embed-react'
+import { InvitationContext } from '../../pages'
 
-const Confirmation = ({ person }) => {
+const Confirmation = () => {
+  const { hasInvitation } = useContext(InvitationContext)
+
   return (
     <section
       className="flex justify-center flex-col items-center mt-10 pb-10 mx-10"
@@ -20,7 +23,7 @@ const Confirmation = ({ person }) => {
         alguno de los síntomas relacionados con COVID-19, notifica a los novios. ¡Si te cuidas tú,
         nos cuidamos todos!
       </p>
-      {person ? (
+      {hasInvitation ? (
         <Fragment>
           <h3 className="flex heading-text justify-center mt-10">Confirma tu asistencia</h3>
           <p className="mt-5">Llena nuestro formulario y sé parte de nuestro gran día.</p>

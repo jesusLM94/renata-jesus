@@ -6,7 +6,7 @@ const Card = (props) => {
 
   return (
     <div className="m-5 w-full sm:w-5/12">
-      <figure class="bg-custom rounded-xl p-3 sm:p-8 text-center">
+      <figure className="bg-custom rounded-xl p-3 sm:p-8 text-center">
         <h5 className="text-xl flex flex-wrap justify-center mb-2 font-bold">{title}</h5>
         <p className="text-lg flex flex-wrap justify-center mb-2">{text}</p>
         <p className="text-lg flex flex-wrap justify-center mb-5">{time}</p>

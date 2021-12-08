@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { InvitationContext } from '../../pages'
 import invitationBg from '../../assets/images/invitation-bg.jpeg'
 
-const Invitation = (props) => {
-  const { person } = props
+const Invitation = () => {
+  const { person } = useContext(InvitationContext)
 
   return (
     <div>

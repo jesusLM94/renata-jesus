@@ -11,6 +11,10 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+
+  @media (min-width: 1536px) {
+    background-position: 10% 20%;
+  }
 }
 
 .hero-title {
