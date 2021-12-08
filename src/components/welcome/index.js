@@ -8,15 +8,15 @@ const Welcome = () => {
           Con la bendición de Dios y en compañía de nuestros padres
         </p>
 
-        <div className="flex justify-center my-5 sm:my-10">
-          <div className="flex text-right flex-col mr-1.5 sm:mr-5">
-            <p className="mt-3 sm:mt-2">Laura Isabel Villaseñor Aguirre</p>
-            <p className="mt-3 sm:mt-2">Carlos René Salazar Hernández</p>
+        <div className="flex flex-col items-center justify-center my-5 sm:my-10">
+          <div className="flex">
+            <p className="mt-3 sm:mt-2 mr-3 sm:mr-10 text-right">Laura Isabel Villaseñor Aguirre</p>
+            <p className="mt-3 sm:mt-2 text-left">Nelva Gpe.Montelongo Galván</p>
           </div>
 
-          <div className="flex text-left flex-col ml-1.5 sm:ml-5">
-            <p className="mt-3 sm:mt-2">Nelva Gpe. Montelongo Galván</p>
-            <p className="mt-3 sm:mt-2">Jesús Manuel Lizárraga Calleros</p>
+          <div className="flex">
+            <p className="mt-3 sm:mt-2 mr-3 sm:mr-10 text-right">Carlos René Salazar Hernández</p>
+            <p className="mt-3 sm:mt-2 text-left">Jesús Manuel Lizárraga Calleros</p>
           </div>
         </div>
         <p className="my-10">Y nuestros padrinos Ana García Sauceda y José Montelongo Galván</p>

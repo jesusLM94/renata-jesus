@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { InvitationContext } from '../../pages'
+import { InvitationContext } from '../../contexts/invitation'
 
 const Navigation = (props) => {
   const { className } = props

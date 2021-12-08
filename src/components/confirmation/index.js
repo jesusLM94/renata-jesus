@@ -1,6 +1,6 @@
 import React, { Fragment, useContext } from 'react'
 import { PopupButton } from '@typeform/embed-react'
-import { InvitationContext } from '../../pages'
+import { InvitationContext } from '../../context/InvitationContext'
 
 const Confirmation = () => {
   const { hasInvitation } = useContext(InvitationContext)

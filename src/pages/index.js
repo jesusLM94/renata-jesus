@@ -10,11 +10,10 @@ import Welcome from '../components/welcome'
 import Timeline from '../components/timeline'
 import Footer from '../components/footer'
 import Seo from '../components/seo'
+import { InvitationContext } from '../contexts/invitationContext'
 import { guestList } from '../helpers/guestList'
 import smoothscroll from 'smoothscroll-polyfill'
 import '../assets/styles/index.scss'
-
-export const InvitationContext = React.createContext({ person: {}, hasInvitation: false })
 
 const IndexPage = (props) => {
   // kick off the polyfill for smooth scrolling
