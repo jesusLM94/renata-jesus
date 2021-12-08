@@ -193,8 +193,18 @@ export const guestList = Object.freeze({
   },
   galaviz: {
     id: '39',
-    name: 'Familia Galaviz Montelongo',
-    tickets: '5',
+    name: 'Familia Galaviz Cortés',
+    tickets: '2',
+  },
+  alegalaviz: {
+    id: '39',
+    name: 'Srita. Pochis',
+    tickets: '1',
+  },
+  fergalaviz: {
+    id: '39',
+    name: 'Srita. Fernanda Galaviz Montelongo',
+    tickets: '2',
   },
   penamontelongo: {
     id: '40',
