@@ -151,7 +151,7 @@ export const guestList = Object.freeze({
   },
   dolores: {
     id: '31',
-    name: 'Sra. Dolores Galván',
+    name: 'Sra. Dolores Galván Rivera',
     tickets: '1',
   },
   angulolizarraga: {
@@ -285,7 +285,7 @@ export const guestList = Object.freeze({
   },
   quique: {
     id: '54',
-    name: 'Quique González',
+    name: 'Pidi González',
     tickets: '1',
   },
   nacho: {
