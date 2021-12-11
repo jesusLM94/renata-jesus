@@ -67,7 +67,7 @@ export const guestList = Object.freeze({
   gomezgonzalez: {
     id: '14',
     name: 'Familia Gómez González',
-    tickets: '8',
+    tickets: '3',
   },
   gomezmarrufo: {
     id: '15',
@@ -86,12 +86,12 @@ export const guestList = Object.freeze({
   },
   sofi: {
     id: '18',
-    name: 'Sofía Izquierdo Márquez',
+    name: 'Familia Agnesi Izquierdo',
     tickets: '2',
   },
   garibay: {
     id: '19',
-    name: 'Familia Garibay',
+    name: 'Familia Garibay Flores',
     tickets: '2',
   },
   fa: {
@@ -106,7 +106,7 @@ export const guestList = Object.freeze({
   },
   andrea: {
     id: '22',
-    name: 'Andrea Flores Gamboa',
+    name: 'Andrea y Mariana',
     tickets: '2',
   },
   silvia: {
@@ -147,7 +147,7 @@ export const guestList = Object.freeze({
   jacob: {
     id: '30',
     name: 'Jacob Janani Pantoja Sánchez',
-    tickets: '2',
+    tickets: '1',
   },
   dolores: {
     id: '31',
@@ -189,7 +189,12 @@ export const guestList = Object.freeze({
   arellanomontelongo: {
     id: '38',
     name: 'Familia Arellano Montelongo',
-    tickets: '4',
+    tickets: '2',
+  },
+  vane: {
+    id: '38',
+    name: 'Vanessa Arellano & Christian Meza',
+    tickets: '2',
   },
   galaviz: {
     id: '39',
@@ -386,8 +391,53 @@ export const guestList = Object.freeze({
     tickets: '1',
   },
   contreras: {
-    id: '71',
-    name: 'Familia Contreras',
+    id: '73',
+    name: 'Familia Contreras González',
+    tickets: '2',
+  },
+  hool: {
+    id: '74',
+    name: 'Fernanda Hool Salazar',
+    tickets: '1',
+  },
+  valenzuela: {
+    id: '75',
+    name: 'Familia Valenzuela Romero',
+    tickets: '2',
+  },
+  sam: {
+    id: '76',
+    name: 'Sam Sáncez ',
+    tickets: '2',
+  },
+  paty: {
+    id: '77',
+    name: 'Paty González',
+    tickets: '2',
+  },
+  andres: {
+    id: '78',
+    name: 'Andrés De la Rosa Alcocer',
+    tickets: '2',
+  },
+  laragomez: {
+    id: '79',
+    name: 'Familia Lara Gómez',
+    tickets: '2',
+  },
+  hansgomez: {
+    id: '80',
+    name: 'Familia Hans Gómez',
+    tickets: '2',
+  },
+  meli: {
+    id: '81',
+    name: 'Meli García',
+    tickets: '1',
+  },
+  areli: {
+    id: '82',
+    name: 'Areli Martínez Santos',
     tickets: '2',
   },
 })
