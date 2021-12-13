@@ -221,6 +221,12 @@ export const guestList = Object.freeze({
     name: 'Familia Cabanillas Lizárraga',
     tickets: '3',
   },
+  // Luis y Lesly
+  cabanillasgarzon: {
+    id: '41',
+    name: 'Familia Cabanillas Garzón',
+    tickets: '2',
+  },
   // Juan & Sara
   lizarragaromero: {
     id: '42',
@@ -231,6 +237,12 @@ export const guestList = Object.freeze({
     id: '43',
     name: 'Familia Osuna Lizárraga',
     tickets: '3',
+  },
+  //daniel
+  osunacoppel: {
+    id: '43',
+    name: 'Familia Osuna Coppel',
+    tickets: '2',
   },
   // Idania & Alfredo
   lizarragacardenas: {
@@ -250,7 +262,7 @@ export const guestList = Object.freeze({
   },
   hilda: {
     id: '47',
-    name: 'Sra. Hilda Calleros',
+    name: 'Sra. Hilda Calleros Lizárraga',
     tickets: '1',
   },
   chinchillas: {
@@ -348,7 +360,6 @@ export const guestList = Object.freeze({
     name: 'Landon Butter',
     tickets: '1',
   },
-  // Faltan datos, confirmar apellido
   dino: {
     id: '67',
     name: 'Dinorah Abrego',
@@ -374,10 +385,9 @@ export const guestList = Object.freeze({
     name: 'Federico Gómez',
     tickets: '2',
   },
-  // Faltan datos (apellido)
   christian: {
     id: '70',
-    name: 'Christian',
+    name: 'Christian König',
     tickets: '2',
   },
   anakaren: {
@@ -450,3 +460,5 @@ export const numberOfGuests = (guestList) => {
     return sum
   }, 0)
 }
+
+// console.log(numberOfGuests(Object.values(guestList)))
