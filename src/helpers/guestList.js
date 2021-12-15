@@ -51,12 +51,12 @@ export const guestList = Object.freeze({
   },
   villasenorvera: {
     id: '11',
-    name: 'Familia Villaseñor Vera',
+    name: 'Sr. Florentino Villaseñor y Sra. Ma. de la Luz Vera',
     tickets: '2',
   },
   villasenormoreno: {
     id: '12',
-    name: 'Familia Villaseñor Moreno',
+    name: 'Sr. Armando Villaseñor y Sra. Margarita Moreno',
     tickets: '2',
   },
   leonila: {
@@ -71,17 +71,17 @@ export const guestList = Object.freeze({
   },
   gomezmarrufo: {
     id: '15',
-    name: 'Familia Gómez Marrufo',
+    name: 'Sr. Francisco Gómez y Sra. Tere Marrufo',
     tickets: '2',
   },
   ruizavalos: {
     id: '16',
-    name: 'Familia Ruiz Ávalos',
+    name: 'Sr. Ramón Ruiz y Sra. Alicia Ávalos',
     tickets: '2',
   },
   hernandezavalos: {
     id: '17',
-    name: 'Familia Hernández Ávalos',
+    name: 'Sr. Marco Hernández y Sra. Xóchitl Ávalos',
     tickets: '2',
   },
   sofi: {
@@ -417,7 +417,7 @@ export const guestList = Object.freeze({
   },
   sam: {
     id: '76',
-    name: 'Sam Sáncez ',
+    name: 'Sammantha Sánchez ',
     tickets: '2',
   },
   paty: {
@@ -450,9 +450,14 @@ export const guestList = Object.freeze({
     name: 'Areli Martínez Santos',
     tickets: '2',
   },
+  lupita: {
+    id: '83',
+    name: 'Sra. Lupita Flores',
+    tickets: '1',
+  },
 })
 
-export const numberOfGuests = (guestList) => {
+const numberOfGuests = (guestList) => {
   // count number of tickets
   return guestList.reduce((sum, guest) => {
     sum = sum + parseInt(guest.tickets)
@@ -461,4 +466,4 @@ export const numberOfGuests = (guestList) => {
   }, 0)
 }
 
-// console.log(numberOfGuests(Object.values(guestList)))
+//console.log(numberOfGuests(Object.values(guestList)))
