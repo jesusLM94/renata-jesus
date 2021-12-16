@@ -239,9 +239,9 @@ export const guestList = Object.freeze({
     tickets: '3',
   },
   //daniel
-  osunacoppel: {
+  osunapatron: {
     id: '43',
-    name: 'Familia Osuna Coppel',
+    name: 'Familia Osuna Patrón',
     tickets: '2',
   },
   // Idania & Alfredo
