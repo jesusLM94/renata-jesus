@@ -16,12 +16,14 @@ export const guestList = Object.freeze({
     name: 'Nelva Montelongo Galván',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   jesus: {
     id: '4',
     name: 'Jesús Lizárraga Calleros',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   cueva: {
     id: '5',
@@ -116,8 +118,8 @@ export const guestList = Object.freeze({
   fa: {
     id: '20',
     name: 'Fá Elías',
-    tickets: '2',
-    going: 2,
+    tickets: '1',
+    going: 1,
   },
   lopezlases: {
     id: '21',
@@ -172,36 +174,41 @@ export const guestList = Object.freeze({
     name: 'Familia Álvarez Gómez',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   jacob: {
     id: '30',
     name: 'Jacob Janani Pantoja Sánchez',
     tickets: '1',
-    going: 1,
+    going: 0,
   },
   dolores: {
     id: '31',
     name: 'Sra. Dolores Galván Rivera',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   angulolizarraga: {
     id: '32',
     name: 'Familia Angulo Lizárraga',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   rodriguez: {
     id: '33',
     name: 'Familia Rodríguez Montelongo',
     tickets: '4',
     going: 4,
+    host: 'jesus',
   },
   aracely: {
     id: '34',
     name: 'Sra. Aracely Montelongo Galván',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   // Caro & Adrian
   rodriguezgarcia: {
@@ -209,12 +216,14 @@ export const guestList = Object.freeze({
     name: 'Familia Rodríguez García',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   garciaolea: {
     id: '36',
     name: 'Familia García Olea',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   // Pepe & Ana
   montelongogarcia: {
@@ -222,48 +231,56 @@ export const guestList = Object.freeze({
     name: 'Familia Montelongo García',
     tickets: '4',
     going: 4,
+    host: 'jesus',
   },
   arellanomontelongo: {
     id: '38',
     name: 'Familia Arellano Montelongo',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   vane: {
     id: '38',
     name: 'Vanessa Arellano & Christian Meza',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   galaviz: {
     id: '39',
     name: 'Familia Galaviz Cortés',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   alegalaviz: {
     id: '39',
     name: 'Srita. Pochis',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   fergalaviz: {
     id: '39',
     name: 'Srita. Fernanda Galaviz Montelongo',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   penamontelongo: {
     id: '40',
     name: 'Familia Peña Montelongo',
     tickets: '4',
     going: 4,
+    host: 'jesus',
   },
   cabanillas: {
     id: '41',
     name: 'Familia Cabanillas Lizárraga',
     tickets: '3',
     going: 3,
+    host: 'jesus',
   },
   // Luis y Lesly
   cabanillasgarzon: {
@@ -271,6 +288,7 @@ export const guestList = Object.freeze({
     name: 'Familia Cabanillas Garzón',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   // Juan & Sara
   lizarragaromero: {
@@ -278,12 +296,14 @@ export const guestList = Object.freeze({
     name: 'Familia Lizárraga Romero',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   osunalizarraga: {
     id: '43',
     name: 'Familia Osuna Lizárraga',
     tickets: '3',
     going: 3,
+    host: 'jesus',
   },
   //daniel
   osunapatron: {
@@ -291,6 +311,7 @@ export const guestList = Object.freeze({
     name: 'Familia Osuna Patrón',
     tickets: '2',
     going: 0,
+    host: 'jesus',
   },
   // Idania & Alfredo
   lizarragacardenas: {
@@ -298,174 +319,203 @@ export const guestList = Object.freeze({
     name: 'Familia Lizárraga Cárdenas',
     tickets: '3',
     going: 0,
+    host: 'jesus',
   },
   dalia: {
     id: '45',
     name: 'Sra. Dalia Lizárraga Calleros',
     tickets: '2',
     going: 0,
+    host: 'jesus',
   },
   teresa: {
     id: '46',
     name: 'Sra. Teresa Lizárraga Calleros',
     tickets: '2',
     going: 0,
+    host: 'jesus',
   },
   hilda: {
     id: '47',
     name: 'Sra. Hilda Calleros Lizárraga',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   chinchillas: {
     id: '48',
     name: 'Las Chinchillas',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   mitzi: {
     id: '49',
     name: 'Mitzi Lizárraga Romero',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   migue: {
     id: '50',
     name: 'Miguel Valenzuela',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   esteban: {
     id: '51',
     name: 'Esteban Meneses',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   rodrigo: {
     id: '52',
     name: 'Rodrigo Meneses',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   alejandro: {
     id: '53',
     name: 'Alex Calderón',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   quique: {
     id: '54',
     name: 'Pidi González',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   nacho: {
     id: '55',
     name: 'Nacho Luchador',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   orlando: {
     id: '56',
     name: 'Orlando Ramírez',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   primo: {
     id: '57',
     name: 'Familia Calderón Peraza',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   rafa: {
     id: '58',
     name: 'Familia Velázquez Rubicel',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   pepe: {
     id: '59',
     name: 'José Carlos Aispuro',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   barraza: {
     id: '60',
     name: 'Fernando Barraza Quintero',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   lasse: {
     id: '61',
     name: 'Lasse De Graff (El Santo)',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   malene: {
     id: '62',
     name: 'Malene Haugehansen',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   meghan: {
     id: '63',
     name: 'Meghan Gruenewald',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   estefy: {
     id: '64',
     name: 'Stefy Benavente',
     tickets: '2',
     going: 1,
+    host: 'jesus',
   },
   fabian: {
     id: '65',
     name: 'Fabian Kruckenhauser',
     tickets: '1',
     going: 2,
+    host: 'jesus',
   },
   landon: {
     id: '66',
     name: 'Landon Butter',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   dino: {
     id: '67',
     name: 'Dinorah Abrego',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   farid: {
     id: '68',
     name: 'Farid Izar',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   paulina: {
     id: '69',
     name: 'Paulina Ortega',
     tickets: '2',
     going: 0,
+    host: 'jesus',
   },
   nick: {
     id: '70',
     name: 'Nicholas Chai',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   fede: {
     id: '70',
     name: 'Federico Gómez',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   christian: {
     id: '70',
     name: 'Christian König',
     tickets: '2',
     going: 0,
+    host: 'jesus',
   },
   anakaren: {
     id: '71',
@@ -478,6 +528,7 @@ export const guestList = Object.freeze({
     name: 'JC Verduzco',
     tickets: '1',
     going: 1,
+    host: 'jesus',
   },
   contreras: {
     id: '73',
@@ -489,7 +540,7 @@ export const guestList = Object.freeze({
     id: '74',
     name: 'Fernanda Hool Salazar',
     tickets: '1',
-    going: 1,
+    going: 0,
   },
   valenzuela: {
     id: '75',
@@ -539,23 +590,26 @@ export const guestList = Object.freeze({
     tickets: '2',
     going: 2,
   },
-  lupita: {
-    id: '83',
-    name: 'Sra. Lupita Flores',
-    tickets: '1',
-    going: 1,
-  },
   christiandominguez: {
     id: '84',
     name: 'Familia Domínguez Delgado',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   carlosdominguez: {
     id: '84',
     name: 'Familia Domínguez Chavez',
     tickets: '2',
     going: 2,
+    host: 'jesus',
+  },
+  bernabe: {
+    id: '84',
+    name: 'Bernabe Felix',
+    tickets: '2',
+    going: 2,
+    host: 'jesus',
   },
 })
 
@@ -577,264 +631,17 @@ const numberOfConfirmed = (guestList) => {
   }, 0)
 }
 
-const jesusGuests = Object.freeze({
-  nelva: {
-    id: '3',
-    name: 'Nelva Montelongo Galván',
-    tickets: '1',
-  },
-  jesus: {
-    id: '4',
-    name: 'Jesús Lizárraga Calleros',
-    tickets: '1',
-  },
-  dolores: {
-    id: '31',
-    name: 'Sra. Dolores Galván Rivera',
-    tickets: '1',
-  },
-  angulolizarraga: {
-    id: '32',
-    name: 'Familia Angulo Lizárraga',
-    tickets: '2',
-  },
-  rodriguez: {
-    id: '33',
-    name: 'Familia Rodríguez Montelongo',
-    tickets: '4',
-  },
-  aracely: {
-    id: '34',
-    name: 'Sra. Aracely Montelongo Galván',
-    tickets: '1',
-  },
-  // Caro & Adrian
-  rodriguezgarcia: {
-    id: '35',
-    name: 'Familia Rodríguez García',
-    tickets: '2',
-  },
-  garciaolea: {
-    id: '36',
-    name: 'Familia García Olea',
-    tickets: '2',
-  },
-  // Pepe & Ana
-  montelongogarcia: {
-    id: '37',
-    name: 'Familia Montelongo García',
-    tickets: '4',
-  },
-  arellanomontelongo: {
-    id: '38',
-    name: 'Familia Arellano Montelongo',
-    tickets: '2',
-  },
-  vane: {
-    id: '38',
-    name: 'Vanessa Arellano & Christian Meza',
-    tickets: '2',
-  },
-  galaviz: {
-    id: '39',
-    name: 'Familia Galaviz Cortés',
-    tickets: '2',
-  },
-  alegalaviz: {
-    id: '39',
-    name: 'Srita. Pochis',
-    tickets: '1',
-  },
-  fergalaviz: {
-    id: '39',
-    name: 'Srita. Fernanda Galaviz Montelongo',
-    tickets: '2',
-  },
-  penamontelongo: {
-    id: '40',
-    name: 'Familia Peña Montelongo',
-    tickets: '4',
-  },
-  cabanillas: {
-    id: '41',
-    name: 'Familia Cabanillas Lizárraga',
-    tickets: '3',
-  },
-  // Luis y Lesly
-  cabanillasgarzon: {
-    id: '41',
-    name: 'Familia Cabanillas Garzón',
-    tickets: '2',
-  },
-  // Juan & Sara
-  lizarragaromero: {
-    id: '42',
-    name: 'Familia Lizárraga Romero',
-    tickets: '2',
-  },
-  osunalizarraga: {
-    id: '43',
-    name: 'Familia Osuna Lizárraga',
-    tickets: '3',
-  },
-  //daniel
-  osunapatron: {
-    id: '43',
-    name: 'Familia Osuna Patrón',
-    tickets: '2',
-  },
-  // Idania & Alfredo
-  lizarragacardenas: {
-    id: '44',
-    name: 'Familia Lizárraga Cárdenas',
-    tickets: '2',
-  },
-  dalia: {
-    id: '45',
-    name: 'Sra. Dalia Lizárraga Calleros',
-    tickets: '2',
-  },
-  teresa: {
-    id: '46',
-    name: 'Sra. Teresa Lizárraga Calleros',
-    tickets: '2',
-  },
-  hilda: {
-    id: '47',
-    name: 'Sra. Hilda Calleros Lizárraga',
-    tickets: '1',
-  },
-  chinchillas: {
-    id: '48',
-    name: 'Las Chinchillas',
-    tickets: '2',
-  },
-  mitzi: {
-    id: '49',
-    name: 'Mitzi Lizárraga Romero',
-    tickets: '2',
-  },
-  migue: {
-    id: '50',
-    name: 'Miguel Valenzuela',
-    tickets: '2',
-  },
-  esteban: {
-    id: '51',
-    name: 'Esteban Meneses',
-    tickets: '2',
-  },
-  rodrigo: {
-    id: '52',
-    name: 'Rodrigo Meneses',
-    tickets: '1',
-  },
-  alejandro: {
-    id: '53',
-    name: 'Alex Calderón',
-    tickets: '2',
-  },
-  quique: {
-    id: '54',
-    name: 'Pidi González',
-    tickets: '1',
-  },
-  nacho: {
-    id: '55',
-    name: 'Nacho Luchador',
-    tickets: '1',
-  },
-  orlando: {
-    id: '56',
-    name: 'Orlando Ramírez',
-    tickets: '2',
-  },
-  primo: {
-    id: '57',
-    name: 'Familia Calderón Peraza',
-    tickets: '2',
-  },
-  rafa: {
-    id: '58',
-    name: 'Familia Velázquez Rubicel',
-    tickets: '2',
-  },
-  pepe: {
-    id: '59',
-    name: 'José Carlos Aispuro',
-    tickets: '2',
-  },
-  barraza: {
-    id: '60',
-    name: 'Fernando Barraza Quintero',
-    tickets: '2',
-  },
-  lasse: {
-    id: '61',
-    name: 'Lasse De Graff (El Santo)',
-    tickets: '2',
-  },
-  malene: {
-    id: '62',
-    name: 'Malene Haugehansen',
-    tickets: '2',
-  },
-  meghan: {
-    id: '63',
-    name: 'Meghan Gruenewald',
-    tickets: '1',
-  },
-  estefy: {
-    id: '64',
-    name: 'Stefy Benavente',
-    tickets: '2',
-  },
-  fabian: {
-    id: '65',
-    name: 'Fabian Kruckenhauser',
-    tickets: '1',
-  },
-  landon: {
-    id: '66',
-    name: 'Landon Butter',
-    tickets: '1',
-  },
-  dino: {
-    id: '67',
-    name: 'Dinorah Abrego',
-    tickets: '1',
-  },
-  farid: {
-    id: '68',
-    name: 'Farid Izar',
-    tickets: '1',
-  },
-  paulina: {
-    id: '69',
-    name: 'Paulina Ortega',
-    tickets: '2',
-  },
-  nick: {
-    id: '70',
-    name: 'Nicholas Chai',
-    tickets: '1',
-  },
-  fede: {
-    id: '70',
-    name: 'Federico Gómez',
-    tickets: '2',
-  },
-  christian: {
-    id: '70',
-    name: 'Christian König',
-    tickets: '2',
-  },
-  jc: {
-    id: '72',
-    name: 'JC Verduzco',
-    tickets: '1',
-  },
-})
+const JesusInvited = (guestList) => {
+  return guestList.filter((guest) => {
+    return guest.host === 'jesus'
+  })
+}
 
-console.log(numberOfGuests(Object.values(guestList)))
-console.log(numberOfConfirmed(Object.values(guestList)))
+// Todos los invitados
+//console.log(numberOfGuests(Object.values(guestList)))
+
+// Todos los confirmados
+//console.log(numberOfConfirmed(Object.values(guestList)))
+
+// Invitados de Jesús
+//console.log(numberOfConfirmed(JesusInvited(Object.values(guestList))))
