@@ -32,5 +32,8 @@
     "sass": "^1.42.1",
     "smoothscroll-polyfill": "^0.4.4",
     "tailwindcss": "^2.2.19"
+  },
+  "engines": {
+    "node": ">=14.15.0"
   }
 }
