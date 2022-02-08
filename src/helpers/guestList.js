@@ -623,6 +623,12 @@ export const guestList = Object.freeze({
     tickets: '1',
     going: 1,
   },
+  diego: {
+    id: '87',
+    name: 'Diego Rodriguez',
+    tickets: '2',
+    going: 0,
+  },
 })
 
 const numberOfGuests = (guestList) => {
