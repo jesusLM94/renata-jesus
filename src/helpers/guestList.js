@@ -230,7 +230,7 @@ export const guestList = Object.freeze({
     id: '37',
     name: 'Familia Montelongo García',
     tickets: '4',
-    going: 4,
+    going: 3,
     host: 'jesus',
   },
   arellanomontelongo: {
@@ -302,7 +302,7 @@ export const guestList = Object.freeze({
     id: '43',
     name: 'Familia Osuna Lizárraga',
     tickets: '3',
-    going: 3,
+    going: 0,
     host: 'jesus',
   },
   //daniel
@@ -339,7 +339,7 @@ export const guestList = Object.freeze({
     id: '47',
     name: 'Sra. Hilda Calleros Lizárraga',
     tickets: '1',
-    going: 1,
+    going: 0,
     host: 'jesus',
   },
   chinchillas: {
@@ -353,7 +353,7 @@ export const guestList = Object.freeze({
     id: '49',
     name: 'Mitzi Lizárraga Romero',
     tickets: '2',
-    going: 2,
+    going: 0,
     host: 'jesus',
   },
   migue: {
@@ -627,7 +627,7 @@ export const guestList = Object.freeze({
     id: '87',
     name: 'Diego Rodriguez',
     tickets: '2',
-    going: 0,
+    going: 2,
   },
   alex: {
     id: '87',
@@ -651,7 +651,31 @@ export const guestList = Object.freeze({
     id: '87',
     name: 'Grace Quiñones Torres',
     tickets: '2',
+    going: 0,
+  },
+  nicole: {
+    id: '87',
+    name: 'Nicole Lazo',
+    tickets: '2',
     going: 2,
+  },
+  anapaula: {
+    id: '87',
+    name: 'Anapaula Cota',
+    tickets: '2',
+    going: 2,
+  },
+  yuyin: {
+    id: '87',
+    name: 'Yuyin',
+    tickets: '2',
+    going: 0,
+  },
+  chema: {
+    id: '87',
+    name: 'Chema Martínez',
+    tickets: '1',
+    going: 0,
   },
 })
 
