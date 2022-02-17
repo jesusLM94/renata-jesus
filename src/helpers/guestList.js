@@ -1,4 +1,17 @@
 export const guestList = Object.freeze({
+  cochita: {
+    id: '1',
+    name: 'Renata Salazar Villaseñor',
+    tickets: '1',
+    going: 1,
+  },
+  cochito: {
+    id: '1',
+    name: 'Jesús Eduardo Lizárraga Montelongo',
+    tickets: '1',
+    going: 1,
+    host: 'jesus',
+  },
   carlos: {
     id: '1',
     name: 'Carlos René Salazar Hernández',
@@ -35,7 +48,7 @@ export const guestList = Object.freeze({
     id: '6',
     name: 'Karla Priscilla Salazar Villaseñor',
     tickets: '2',
-    going: 2,
+    going: 7,
   },
   ortega: {
     id: '7',
@@ -47,7 +60,7 @@ export const guestList = Object.freeze({
     id: '8',
     name: 'Srita. Josefina Villaseñor Aguirre',
     tickets: '1',
-    going: 1,
+    going: 0,
   },
   bertha: {
     id: '9',
@@ -77,13 +90,13 @@ export const guestList = Object.freeze({
     id: '13',
     name: 'Sra. Leonila Villaseñor Aguirre',
     tickets: '2',
-    going: 2,
+    going: 0,
   },
   gomezgonzalez: {
     id: '14',
     name: 'Familia Gómez González',
     tickets: '3',
-    going: 3,
+    going: 2,
   },
   gomezmarrufo: {
     id: '15',
@@ -107,7 +120,7 @@ export const guestList = Object.freeze({
     id: '18',
     name: 'Familia Agnesi Izquierdo',
     tickets: '2',
-    going: 2,
+    going: 0,
   },
   garibay: {
     id: '19',
@@ -174,7 +187,6 @@ export const guestList = Object.freeze({
     name: 'Familia Álvarez Gómez',
     tickets: '2',
     going: 2,
-    host: 'jesus',
   },
   jacob: {
     id: '30',
@@ -552,7 +564,7 @@ export const guestList = Object.freeze({
     id: '76',
     name: 'Sammantha Sánchez ',
     tickets: '2',
-    going: 2,
+    going: 0,
   },
   paty: {
     id: '77',
@@ -570,13 +582,13 @@ export const guestList = Object.freeze({
     id: '79',
     name: 'Familia Lara Gómez',
     tickets: '2',
-    going: 2,
+    going: 0,
   },
   hansgomez: {
     id: '80',
     name: 'Familia Hans Gómez',
     tickets: '2',
-    going: 2,
+    going: 0,
   },
   meli: {
     id: '81',
@@ -615,7 +627,7 @@ export const guestList = Object.freeze({
     id: '85',
     name: 'América Ávalos Briseño',
     tickets: '1',
-    going: 1,
+    going: 0,
   },
   juan: {
     id: '86',
@@ -628,12 +640,13 @@ export const guestList = Object.freeze({
     name: 'Diego Rodriguez',
     tickets: '2',
     going: 2,
+    host: 'jesus',
   },
   alex: {
     id: '87',
     name: 'Diana y Alex',
     tickets: '2',
-    going: 0,
+    going: 2,
   },
   mariana: {
     id: '87',
@@ -645,13 +658,15 @@ export const guestList = Object.freeze({
     id: '87',
     name: 'Yolanda Ramírez',
     tickets: '1',
-    going: 1,
+    going: 0,
+    host: 'jesus',
   },
   grace: {
     id: '87',
     name: 'Grace Quiñones Torres',
     tickets: '2',
     going: 0,
+    host: 'jesus',
   },
   nicole: {
     id: '87',
@@ -670,12 +685,21 @@ export const guestList = Object.freeze({
     name: 'Yuyin',
     tickets: '2',
     going: 0,
+    host: 'jesus',
   },
   chema: {
     id: '87',
     name: 'Chema Martínez',
     tickets: '1',
     going: 0,
+    host: 'jesus',
+  },
+  bazana: {
+    id: '87',
+    name: 'Bazana y Wendy',
+    tickets: '2',
+    going: 0,
+    host: 'jesus',
   },
 })
 
@@ -704,10 +728,18 @@ const JesusInvited = (guestList) => {
 }
 
 // Todos los invitados
-//console.log(numberOfGuests(Object.values(guestList)))
+//console.log(`Todos Los invitados: ${numberOfGuests(Object.values(guestList))}`)
 
 // Todos los confirmados
-//console.log(numberOfConfirmed(Object.values(guestList)))
+//console.log(`Todos Los confirmados: ${numberOfConfirmed(Object.values(guestList))}`)
 
 // Invitados de Jesús
-//console.log(numberOfConfirmed(JesusInvited(Object.values(guestList))))
+//console.log(`Confirmados de cochito: ${numberOfConfirmed(JesusInvited(Object.values(guestList)))}`)
+
+// Invitados de Cochita
+//console.log(
+//  `Confirmados de cochita: ${
+//    numberOfConfirmed(Object.values(guestList)) -
+//    numberOfConfirmed(JesusInvited(Object.values(guestList)))
+//  }`,
+//)
