@@ -131,8 +131,8 @@ export const guestList = Object.freeze({
   fa: {
     id: '20',
     name: 'Fá Elías',
-    tickets: '1',
-    going: 1,
+    tickets: '2',
+    going: 2,
   },
   lopezlases: {
     id: '21',
@@ -456,7 +456,7 @@ export const guestList = Object.freeze({
     id: '62',
     name: 'Malene Haugehansen',
     tickets: '2',
-    going: 2,
+    going: 0,
     host: 'jesus',
   },
   meghan: {
@@ -593,8 +593,8 @@ export const guestList = Object.freeze({
   meli: {
     id: '81',
     name: 'Meli García',
-    tickets: '1',
-    going: 1,
+    tickets: '2',
+    going: 2,
   },
   areli: {
     id: '82',
@@ -684,7 +684,7 @@ export const guestList = Object.freeze({
     id: '87',
     name: 'Yuyin',
     tickets: '2',
-    going: 0,
+    going: 2,
     host: 'jesus',
   },
   chema: {
@@ -698,11 +698,24 @@ export const guestList = Object.freeze({
     id: '87',
     name: 'Bazana y Wendy',
     tickets: '2',
-    going: 0,
+    going: 2,
     host: 'jesus',
+  },
+  martha: {
+    id: '87',
+    name: 'Martha Zazueta',
+    tickets: '2',
+    going: 2,
+  },
+  jorge: {
+    id: '87',
+    name: 'Jorge Pulido',
+    tickets: '1',
+    going: 1,
   },
 })
 
+/*
 const numberOfGuests = (guestList) => {
   // count number of tickets
   return guestList.reduce((sum, guest) => {
@@ -728,18 +741,19 @@ const JesusInvited = (guestList) => {
 }
 
 // Todos los invitados
-//console.log(`Todos Los invitados: ${numberOfGuests(Object.values(guestList))}`)
+console.log(`Todos Los invitados: ${numberOfGuests(Object.values(guestList))}`)
 
 // Todos los confirmados
-//console.log(`Todos Los confirmados: ${numberOfConfirmed(Object.values(guestList))}`)
+console.log(`Todos Los confirmados: ${numberOfConfirmed(Object.values(guestList))}`)
 
 // Invitados de Jesús
-//console.log(`Confirmados de cochito: ${numberOfConfirmed(JesusInvited(Object.values(guestList)))}`)
+console.log(`Confirmados de cochito: ${numberOfConfirmed(JesusInvited(Object.values(guestList)))}`)
 
 // Invitados de Cochita
-//console.log(
-//  `Confirmados de cochita: ${
-//    numberOfConfirmed(Object.values(guestList)) -
-//    numberOfConfirmed(JesusInvited(Object.values(guestList)))
-//  }`,
-//)
+console.log(
+  `Confirmados de cochita: ${
+    numberOfConfirmed(Object.values(guestList)) -
+    numberOfConfirmed(JesusInvited(Object.values(guestList)))
+  }`,
+)
+*/
