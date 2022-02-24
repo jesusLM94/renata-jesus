@@ -713,6 +713,12 @@ export const guestList = Object.freeze({
     tickets: '1',
     going: 1,
   },
+  max: {
+    id: '87',
+    name: 'Max Arias',
+    tickets: '2',
+    going: 2,
+  },
 })
 
 /*
